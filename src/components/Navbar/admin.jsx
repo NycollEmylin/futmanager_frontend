@@ -49,6 +49,15 @@ export const itensAdmin = [
       caminho: '/chamadas'
     },
     {
+      titulo: 'Agenda',
+      icone: (
+          <SvgIcon>
+              <ChecklistIcon/>
+          </SvgIcon>
+      ),
+      caminho: '/Agendas'
+    },
+    {
         titulo: "Gerencial",
         icone: <SettingsIcon />,
         submenu: [
